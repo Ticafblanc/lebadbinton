@@ -1,114 +1,118 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
+/*style globale*/
 header, footer, main {
-    padding: 20px;
+  padding: 20px;
+  font-family: Arial, serif;
 }
 
 header, footer {
-    background-color: #2b4a2d;
-    color: #fff;
-}
-
-h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0 0 20px;
-}
-
-p {
-    margin: 20px 0;
+  background-color: #2b4a2d;
+  color: #fff;
 }
 
 header a {
-    color: #fff;
+  color: white;
 }
 
 header .link {
-    display: inline-block;
-    width: 120px;
-    padding: 0 0 10px;
-    border-bottom: 5px solid #fff;
+  display: inline-block;
+  width: 100px;
 }
 
 header .link.active {
-    padding: 0 0 5px;
-    border-bottom: 10px solid #fff;
+  padding: 0 0 5px;
+  border-bottom: 10px solid #fff;
 }
 
-main img {
-    display: block;
-    margin: 0 auto 40px;
-    padding: 5px;
-    border: 1px solid #2b4a2d;
+header .link.inactive {
+  padding: 0 0 10px;
+  border-bottom: 5px solid #fff;
+}
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px 0;
+
+}
+img{
+  margin: 0 auto 10px;
+  display: block;
+  padding: 10px;
+  border: 5px solid darkslategray;
 }
 
-img.intro {
-    width: 200px;
+p{
+  padding: 10px 0;
 }
 
-img.histoire {
-    width: 350px;
+/*style accueille.html*/
+img.volant{
+  width: 200px;
 }
 
-.schemas {
-    background-color: #29302d;
-    width: 250px;
-    margin: 0 auto;
-    padding: 20px;
+.upper_separator {
+  border-top: 4px outset darkslategrey;
+}
+
+/*style histiore*/
+img.histoire{
+  width: 350px;
+}
+/*style Terrain.html*/
+.background_terrain{
+  background-color: #698062;
+  margin: 0 auto ;
+  padding:  10px 20px 20px 20px;
+  width: 250px;
+}
+
+caption{
+  padding: 10px;
 }
 
 table {
-    margin: 0 auto;
-    border-collapse: separate;
-    border-spacing: 2px;
+  background-color: #2b4a2d;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 2px;
 }
 
 table td {
-    border: 1px solid #fff;
+  border: 1px solid #fff;
 }
 
 table caption {
-    color: #fff;
+  color: #fff;
 }
 
 .back {
-    height: 20px;
+  height: 20px;
 }
 
 .middle {
-    height: 100px;
+  height: 100px;
 }
 
 .front {
-    height: 40px;
+  height: 40px;
 }
 
 .side {
-    width: 15px;
+  width: 15px;
 }
 
 .center {
-    width: 65px;
+  width: 65px;
 }
 
 .net {
-    border: 3px solid #698062;
-    padding: 1px;
-}
-
-.bottom-separator {
-    padding: 0 0 20px;
-    border-bottom: 1px solid #2b4a2d;
-}
-
-footer span {
-    border-left: 1px solid #fff;
-    padding: 0 0 0 15px;
-    margin: 0 0 0 15px;
+  border: 3px solid #698062;
+  padding: 1px;
 }
